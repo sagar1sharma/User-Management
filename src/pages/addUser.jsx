@@ -7,8 +7,11 @@ function AddUser() {
   const signup = async () => {
 
     try {
+        let regex = /^[a-zA-Z]+$/;
         if(name == "" || password == ""){
             alert("Please fill all fields")
+        }else if(!regex.test(name)){
+            alert("Please use only alphabet in Name")
         }else{
             window.location.href="/"
         }

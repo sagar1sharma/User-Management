@@ -10,7 +10,7 @@ function Landing() {
                 <h1 className='text-center text-white text-5xl mb-4 font-bold logo'>User Management</h1>
             </div>
             <div className=' flex justify-center mb-3'>
-                <Link to={'/'}
+                <Link to={'/users'}
                     className=' bg-yellow-500 w-full text-black font-bold  px-2 py-2 rounded-lg'>
                     User Details
                 </Link>
