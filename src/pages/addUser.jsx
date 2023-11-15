@@ -7,7 +7,11 @@ function AddUser() {
   const signup = async () => {
 
     try {
-        window.location.href="/"
+        if(name == "" || password == ""){
+            alert("Please fill all fields")
+        }else{
+            window.location.href="/"
+        }
         
     } catch (error) {
         console.log(error)
