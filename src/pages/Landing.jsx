@@ -16,7 +16,7 @@ function Landing() {
                 </Link>
             </div>
             <div className=' flex justify-center mb-3'>
-                <Link to={'/'}
+                <Link to={'/adduser'}
                     className=' bg-yellow-500 w-full text-black font-bold  px-2 py-2 rounded-lg'>
                     Account Creation
                 </Link>
