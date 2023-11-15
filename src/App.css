@@ -1,10 +1,15 @@
 .App {
   text-align: center;
+  background-color: black;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.logo{
+  font-family: 'Black Ops One', serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
